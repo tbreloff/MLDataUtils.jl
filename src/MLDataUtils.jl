@@ -26,7 +26,7 @@ export
 
 include("feature_scaling.jl")
 include("basis_expansion.jl")
-include("noisy_function.jl")
-include("datasets.jl")
+include("generators/noisy_function.jl")
+include("generators/predefined.jl")
 
 end
